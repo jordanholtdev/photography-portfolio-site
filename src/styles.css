@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap');
+
+
+/* media queries */
+
+@media (max-width:1200px) {
+    .display-3 {
+     font-size:calc(1.575rem + 3.9vw)
+    }
+}
+
+@media (max-width:1200px) {
+    .display-4 {
+     font-size:calc(1.475rem + 2.7vw)
+    }
+}
+
+@media (max-width:1200px) {
+    .email {
+     font-size:calc(1.475rem + 2vw)
+    }
+}
+
+main, body, .navbar, .heroArea, .site-header{
+    background-color: black;
+}
+
+body {
+    padding-top: calc(4rem - 1px);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display-3 {
+    font-weight: bolder;
+}
+
+
+/* grid items */
+
+figure {
+    margin: 0 0 1rem;
+    
+}
+
+.img-color img {
+    filter:grayscale(100%);
+    transition:all .4s ease-in-out
+} 
+
+.img-color:hover img {
+    filter: none;
+} 
+
+figcaption {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* font styling */
+
+h5 {
+    font-size: 1.25rem;
+}
+
+
+/* contact banner */
+
+.contact {
+    background-color: #ffffff;
+}
+
+.email {
+    font-size: 2.5rem;
+}
+
+/* footer styles */
+
+.fa-linkedin-in, .fa-github, .fa-twitter {
+    color: white;
+    font-size: 2rem;
+}
+
+.fa-linkedin-in:hover, .fa-github:hover, .fa-twitter:hover{
+    opacity: 0.6;
+}
+
+/* gallery and modal styles */
+
+.galImg:hover {
+    filter: drop-shadow( 0px 2px rgb(255, 255, 255));
+    cursor: zoom-in;
+} 
+
+.img-fluid {
+   height: 100%;
+}
+
+img[data-action=zoom] {
+    cursor:zoom-in
+}
+
+.modal-dialog {
+    max-width: 1200px;
+}
+
+.modal-backdrop {
+    opacity: 0.95 !important;
+}
+
+/* about page */
+
+.whatIDo {
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 7rem;
+}
+
+.avatar {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.fa-camera {
+    font-size: 3.5rem;
+    color: black;
+    vertical-align: middle;
+    margin-left: 3rem;
+}
+
+.fa-laptop-code {
+    font-size: 3.5rem;
+    color: black;
+    vertical-align: middle;
+    margin-right: 3rem;
+}
