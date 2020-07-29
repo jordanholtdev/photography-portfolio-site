@@ -40,7 +40,7 @@ $ npm install
 Start the dev server
 
 ```sh
-$ cd photography_portfolio
+$ cd photography-portfolio-site
 $ npm run serve
 ```
 
