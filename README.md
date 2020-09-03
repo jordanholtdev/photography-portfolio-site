@@ -10,8 +10,6 @@ Simple grid style portfolio site for photographers
 
 I created this site as a way to learn Bootstrap and how to layout a static portfolio site. 
 
-You can view a live version of the site here: [Portfolio](https://compassionate-cori-673c0d.netlify.app)
-
 ### Features
 
 * Grid Style Layout
