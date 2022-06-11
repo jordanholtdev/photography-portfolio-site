@@ -1,14 +1,14 @@
-# Photography Portfolio Site
+# ARCHIVED - Photography Portfolio Site
 
-Simple grid style portfolio site for photographers
+Simple grid style portfolio site for photographers.
 
 | ![Portfolio homepage](./src/images/read-me-images/homepage.jpg)  |  ![Homepage large image](./src/images/read-me-images/largeImage.jpg) |
 |---|---|
 
 
-## Introduction 
+## Introduction
 
-I created this site as a way to learn Bootstrap and how to layout a static portfolio site. 
+I created this site as a way to learn Bootstrap and how to layout a static portfolio site.
 
 ### Features
 
@@ -23,11 +23,11 @@ I created this site as a way to learn Bootstrap and how to layout a static portf
 
 * Bootstrap 4.5.0
 * Webpack 5.0.0-beta.22
-* JavaScript 
+* JavaScript
 * jQuery
 * Font Awesome Icons 5.14.0
 
-### Installation 
+### Installation
 
 This app requires [Node.js](https://node.js.org/) v14.4.0 to run
 
@@ -50,6 +50,6 @@ For production build
 npm run build
 ```
 
-### Sources 
+### Sources
 
 This site was largerly inspired by the Milo - Magazine/Blog Theme by the Bootlab team. [@Bootlab](https://themes.getbootstrap.com/store/bootlab/)
